@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>System Security</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Matrix background -->
+    <canvas id="matrix"></canvas>
+
+    <div class="scanlines"></div>
+
+    <main class="phone-screen">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <span class="status-dot"></span>
+            <span>SYSTEM BREACH INITIATED...</span>
+            <span class="connection">● CONNECTED</span>
+        </header>
+
+        <!-- MAIN ALERT -->
+        <section class="alert-box">
+
+            <div class="warning-icon">⚠</div>
+
+            <h1>YOU HAVE BEEN<br>HACKED</h1>
+
+            <p class="danger">
+                YOUR SYSTEM IS COMPROMISED
+            </p>
+
+            <div class="alert-list">
+                <div>
+                    <span>⚠</span>
+                    <b>Files</b>
+                    <em>Accessed</em>
+                </div>
+
+                <div>
+                    <span>⚠</span>
+                    <b>Camera</b>
+                    <em>Accessed</em>
+                </div>
+
+                <div>
+                    <span>⚠</span>
+                    <b>Microphone</b>
+                    <em>Accessed</em>
+                </div>
+
+                <div>
+                    <span>⚠</span>
+                    <b>Location</b>
+                    <em>Tracked</em>
+                </div>
+
+                <div>
+                    <span>⚠</span>
+                    <b>Personal Data</b>
+                    <em>Collected</em>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- TERMINAL -->
+        <section class="panel terminal">
+
+            <div class="panel-title">
+                <span>TERMINAL</span>
+                <span>●</span>
+            </div>
+
+            <div id="terminalText"></div>
+
+            <div class="cursor">
+                C:\&gt; <span>█</span>
+            </div>
+
+        </section>
+
+
+        <!-- DATA DOWNLOAD -->
+        <section class="panel">
+
+            <div class="panel-title">
+                DOWNLOADING YOUR DATA...
+            </div>
+
+            <div class="progress-container">
+                <div id="progress"></div>
+            </div>
+
+            <div class="percentage">
+                <span id="percentage">0%</span>
+            </div>
+
+            <div class="files">
+
+                <div>
+                    <span>› Documents</span>
+                    <b class="done">✓ Completed</b>
+                </div>
+
+                <div>
+                    <span>› Photos</span>
+                    <b class="done">✓ Completed</b>
+                </div>
+
+                <div>
+                    <span>› Browser History</span>
+                    <b class="done">✓ Completed</b>
+                </div>
+
+                <div>
+                    <span>› Passwords</span>
+                    <b>○ In progress...</b>
+                </div>
+
+                <div>
+                    <span>› System Files</span>
+                    <b>○ In progress...</b>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SYSTEM MONITOR -->
+        <section class="panel monitoring">
+
+            <div class="panel-title">
+                REAL-TIME MONITORING...
+            </div>
+
+            <div class="monitor-lines">
+                <p>&gt; Watching your screen...</p>
+                <p>&gt; Recording activity...</p>
+                <p>&gt; Monitoring system...</p>
+                <p>&gt; Tracking connection...</p>
+            </div>
+
+            <div class="wave">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </section>
+
+
+        <!-- SYSTEM INFORMATION -->
+        <section class="panel">
+
+            <div class="panel-title">
+                SYSTEM INFORMATION
+            </div>
+
+            <div class="system-info">
+
+                <div>
+                    <span>OS</span>
+                    <b>Windows</b>
+                </div>
+
+                <div>
+                    <span>Device</span>
+                    <b>Mobile</b>
+                </div>
+
+                <div>
+                    <span>Browser</span>
+                    <b>Chrome</b>
+                </div>
+
+                <div>
+                    <span>Connection</span>
+                    <b>Encrypted</b>
+                </div>
+
+                <div>
+                    <span>Status</span>
+                    <b class="red">COMPROMISED</b>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACCESS -->
+        <div class="access">
+            ACCESS GRANTED
+        </div>
+
+
+        <!-- WARNING -->
+        <div class="bottom-warning">
+            ☠ &nbsp; YOUR DATA HAS BEEN STOLEN
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
